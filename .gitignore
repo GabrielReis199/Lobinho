@@ -1,28 +1,107 @@
-# Angular specific
+# Diretórios gerais a ignorar
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.userprefs
+*.lock.json
+*.log
+*.swp
+.DS_Store
+
+# Dependências
+node_modules/
+jspm_packages/
+bower_components/
+packages/
+.npm/
+.yarn-integrity
+/.angular/cache
+
+# C# - .NET
+[Bb]in/
+[Oo]bj/
+[Tt]est[Rr]esult*/
+*.exe
+*.dll
+*.pdb
+*.min.*
+*.nupkg
+*.cache
+*.dotCover
+*.coverage
+*.pidb
+*.userprefs
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+_ReSharper*/
+*.resharper
+*.sln.ide
+project.lock.json
+*.jfm
+*.pubxml
+*.pyc
+*.pyo
+*.pyd
+
+# Angular
 /dist/
-/out-tsc/
 /tmp/
-/coverage/
-/e2e/test-output/
+/out-tsc/
 /.angular/
-.angular/
+/aot/
+*.ngsummary.json
+*.ngfactory.ts
+*.ngstyle.ts
+*.ngschema.json
+*.css.shim.ts
+*.js.map
+*.js
+*.d.ts
+/build/
+/server/
 
-# Node modules and dependency files
-/node_modules/
-/package-lock.json
-/yarn.lock
+# Ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Environment files
-/.env
+# IDE
+.idea/
+*.iml
 
-# Angular CLI and build artefacts
-/.angular-cli.json
-/.ng/
-
-# TypeScript cache
-*.tsbuildinfo
-
-# Logs
+# Logs e relatórios
+logs/
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+/coverage/
+/Reports/
+
+# Sistema operacional
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+# Testes
+/test-results/
+/TestResults/
+*.trx
+
+# Cypress
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor
+*.sw?
